@@ -11,7 +11,7 @@ public class ShapePanel extends JPanel {
 
   /** A constructor that takes no arguments */
   public ShapePanel () {
-    shapeComponent = new ShapeIComponent(500, 500);
+    shapeComponent = new ShapeIComponent(1000, 1000);
     buttonPanel = new ButtonPanel(shapeComponent);
     init(); // call helper method
   }

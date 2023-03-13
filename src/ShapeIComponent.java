@@ -31,7 +31,7 @@ public class ShapeIComponent extends JComponent {
     this.height = height;
     shapes = new ArrayList<Shape>();
     currShapeType = Shape.RECTANGLE;
-    backgroundColor = Color.YELLOW;
+    backgroundColor = Color.WHITE;
     
     init();  // call helper method to do rest of setup
   }
